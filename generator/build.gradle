@@ -1,0 +1,6 @@
+
+dependencies {
+    compile group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
+    annotationProcessor group: 'com.google.auto.service', name: 'auto-service', version: '+'
+    compile group: 'com.google.auto.service', name: 'auto-service', version: '+'
+}
