@@ -80,6 +80,7 @@ public class MappedClassGenerator extends AbstractProcessor {
                             "            <property name=\"hibernate.temp.use_jdbc_metadata_defaults\" value=\"false\"/>\n" +
                             "            <property name=\"hibernate.generate_statistics\" value=\"true\"/>\n" +
                             "            <property name=\"hibernate.flushMode\" value=\"FLUSH_AUTO\"/>\n" +
+                            "            <property name=\"hibernate.show_sql\" value=\"true\"/>\n" +
                             "        </properties>\n" +
                             "    </persistence-unit>\n" +
                             "</persistence>");
